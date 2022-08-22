@@ -1,3 +1,5 @@
 import { LightningElement } from 'lwc';
 
-export default class SampleWebcomp extends LightningElement {}
+export default class SampleWebcomp extends LightningElement {
+    name;
+}
