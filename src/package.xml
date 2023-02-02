@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>DemoSample</members>
+        <members>ExtDemo</members>
+        <members>ExtendInterfaceDemo1</members>
+        <members>HelloWorld</members>
+        <members>InstanceAndStatic</members>
+        <members>InterfaceDemo</members>
+        <members>MathCaliculator</members>
+        <members>PassValuePassRefer</members>
+        <members>SumOfIntegers</members>
+        <members>VirtualDemo</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Invoice__c.Account__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Invoice__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Invoice__c-Invoice Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>bmiCalculator</members>
+        <members>conditionalRendering</members>
+        <members>demoComponent</members>
+        <members>sampleWebcomp</members>
+        <members>userInfoComponent</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <version>55.0</version>
+</Package>

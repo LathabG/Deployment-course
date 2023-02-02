@@ -1,0 +1,73 @@
+:host{
+    --dark-blue : #0b0d21;
+    --light-white : #fafafa;
+    --border-radius:38px;
+    --light-blue : #4d3cff;
+    --deep-pink : #ff1493;
+    --size-16 : 16px;
+    --size-12 : 12px;
+    --size-14 : 14px;
+
+}
+.app{
+    min-height: 100vh;
+    background-image: url(sfsites/c/resource/BmiCalculatorBackground);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    background-color: var(--dark-blue);
+    max-width: 420px;
+    text-align: center;
+    padding: var(--size-16);
+    color: var(--light-white);
+    margin: auto;
+    border-radius: var(--border-radius);
+}
+h1{
+    font-size: 36px;
+    color: var(--deep-pink);
+    padding: 14px 0px;
+    font-weight: bold;
+}
+.info-wrapper{
+    background: #2c2634;
+    padding: var(--size-12);
+    border-radius: var(--border-radius);
+    text-align: center;
+    font-size: var(--size-14);
+}
+h2{
+    font-size: 26px;
+    color: var(--deep-pink);
+    padding: var(--size-12);
+}
+/*h3{
+    font-size: larger;
+    padding: var(--size-12);
+    color: var(--deep-pink);
+}*/
+label{
+    font-size: var(--size-16);
+    color:var(--light-white);
+}
+input{
+    color : var(--light-blue);
+    padding : var(--size-12);
+    font-size: var(--size-16);
+}
+button{
+    font-size: var(--size-16);
+    color: var(--light-white);
+    padding : 8px;
+    background: var(--deep-pink);
+    margin: var(--deep-pink);
+    
+}
+.result-info{
+    font-size: var(--size-16);
+    color: var(--light-blue);
+    padding: 8px;
+}
+

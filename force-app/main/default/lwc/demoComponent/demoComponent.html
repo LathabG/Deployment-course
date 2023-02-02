@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="New Parent component">
+        <div>I am a parnet component</div>
+        <div class='slds-var-m-around_medium'>
+            <lightning-input type="checkbox" label = "Default" onchange ={handleclick}>
+                  <template if:true={Selected}>
+                    <div class='slds-var-m-vertical_small'>
+                        This is my message
+                    </div>
+                  </template>
+            </lightning-input>
+        </div>
+    </lightning-card>
+</template>

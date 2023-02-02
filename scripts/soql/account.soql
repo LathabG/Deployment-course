@@ -1,0 +1,10 @@
+// Use .soql files to store SOQL queries.
+// You can execute queries in VS Code by selecting the
+//     query text and running the command:
+//     SFDX: Execute SOQL Query with Currently Selected Text
+
+//SELECT Id, Name,(SELECT Id, Name, Type, Amount FROM Opportunities) FROM Account WHERE Type LIKE 'Existing Customer' ORDER BY Name ASC NULLS LAST LIMIT 10; 
+//SELECT Id, Name, Amount FROM Opportunity WHERE Amount > 3000
+//SELECT count(Id) FROM Opportunity WHERE CloseDate > LAST_MONTH
+//SELECT Id, Account.Name, Name, Account.Type, StageName, Amount, CloseDate FROM Opportunity 
+//SELECT Id, Name, Type, (SELECT Id, Name, StageName, Amount FROM Opportunities),(SELECT Id, Status,Origin, Subject FROM Cases) FROM Account
