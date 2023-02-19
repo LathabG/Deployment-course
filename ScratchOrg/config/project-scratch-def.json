@@ -1,0 +1,19 @@
+{
+  "orgName": "Demo company",
+  "edition": "Developer",
+  "features": ["EnableSetPasswordInApi","MultiCurrency", "PersonAccounts"],
+  "release__c": "Release-1.2.3",
+  "userStory__c": "US-2331",
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "communitiesSettings": {
+      "enablenetworksEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": true
+    }
+    
+  }
+}
